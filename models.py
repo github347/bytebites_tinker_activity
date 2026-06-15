@@ -142,3 +142,7 @@ if __name__ == "__main__":
     print(f"Customer: {customer.name}, Verified: {customer.isVerified()}")
     print(f"Transaction items: {[item.name for item in tx.items]}")
     print(f"Transaction total: ${tx.total():.2f}")
+
+    print(f"Customer history: {len(customer.purchaseHistory)} transactions")
+    print(f"History: {customer.purchaseHistory}")
+
